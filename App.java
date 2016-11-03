@@ -1,15 +1,15 @@
 public class App{
 	
 	public static void main(String []args){
-		String a,b;
+		int a,b;
 		int somma;
-	a=args[0];
-	b=args[1];
-	int c = Integer.parseInt(b); 
+	a=5;
+	b=3;
+	 
 	somma=0;
-	while(c!=0){
-		somma = somma+Integer.parseInt(a);
-		c--;
+	while(b!=0){
+		somma = somma+a;
+		b--;
 	}
 		
 		System.out.println("Somma: "+somma);
